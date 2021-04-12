@@ -1,0 +1,115 @@
+{
+  "version": 1,
+  "dependencies": {
+    ".NETFramework,Version=v4.5.1": {
+      "Bogus": {
+        "type": "Direct",
+        "requested": "[21.0.4, 21.0.4]",
+        "resolved": "21.0.4",
+        "contentHash": "rerveQPg+rniaTk0XvHB9hIPro4XeV0NgD7idJ3JA22PR/MEq02IwNMPvF3lXl61kyMyd/vzTOggiVltnAc8PQ=="
+      },
+      "Microsoft.AspNet.Cors": {
+        "type": "Direct",
+        "requested": "[5.2.3, 5.2.3]",
+        "resolved": "5.2.3",
+        "contentHash": "6pGL9FwV+FAFK5At8B4TefhScN3Pwe589MCHopeLQVfuKuGdNEuNDEXL+SHCgdN1ZSHxPAhzSZHCL0xt90CKfQ=="
+      },
+      "Microsoft.AspNet.WebApi": {
+        "type": "Direct",
+        "requested": "[5.2.3, 5.2.3]",
+        "resolved": "5.2.3",
+        "contentHash": "mGBfSy61+2dIdPwgguW8EaCVsbYTwwVHeCc/pVq1PhlZS87ColgJ++Hve40TrX6Dtqde0fo9M1Tt19rXlHC5GA=="
+      },
+      "Microsoft.AspNet.WebApi.Client": {
+        "type": "Direct",
+        "requested": "[5.2.3, 5.2.3]",
+        "resolved": "5.2.3",
+        "contentHash": "3kiI8peSXbXHDDrRuo+QaX0iCEVRe0nvn2dBDRw656uPX32UalbBlSIDUDlJxu05eau4tnuhsikiUuugvvoUoQ=="
+      },
+      "Microsoft.AspNet.WebApi.Core": {
+        "type": "Direct",
+        "requested": "[5.2.3, 5.2.3]",
+        "resolved": "5.2.3",
+        "contentHash": "o90QYlRV8VKR1S7+EcJw9w8WSyVFLl+IIzN8ILZ+n2t6rsc/KS8kBxRzA7wCFPRUHhebCfLqilBk39phvanx3g=="
+      },
+      "Microsoft.AspNet.WebApi.Cors": {
+        "type": "Direct",
+        "requested": "[5.2.3, 5.2.3]",
+        "resolved": "5.2.3",
+        "contentHash": "M45cmd93Qr3FJeH9AIyzzfb9XasEoE0lQJacqDtvJFrJl2xuDBhiAXYWv+JkIBHmJcjP9VtcfqTZmJ7eogoDkA=="
+      },
+      "Microsoft.AspNet.WebApi.Owin": {
+        "type": "Direct",
+        "requested": "[5.2.3, 5.2.3]",
+        "resolved": "5.2.3",
+        "contentHash": "eMftC99BNMgnp/PDbfT6OCDW94n1uVBC6bF9Z0HkkC5h1hR4LSsKoy9jvw7aXBi6PN6tuK6uje5UjWvXodbKGA=="
+      },
+      "Microsoft.AspNet.WebApi.WebHost": {
+        "type": "Direct",
+        "requested": "[5.2.3, 5.2.3]",
+        "resolved": "5.2.3",
+        "contentHash": "bhm4/BKdS3t6nK2R3NjCpxulcwtMFiHqVBDLuN3W5So1PhZfE+RBs7eVazGOhsEKCk7PoSmiSnl9DG0cpyfHtA=="
+      },
+      "Microsoft.CodeDom.Providers.DotNetCompilerPlatform": {
+        "type": "Direct",
+        "requested": "[3.6.0, 3.6.0]",
+        "resolved": "3.6.0",
+        "contentHash": "Wxo1vjgqJDawdtSBYegfe7fqUfdKn5vMtAMgHHxjV5rW9rSyQZMQ5t0YTCxyQ/IUyAOoUkrHMVXNLCdqAtH72w=="
+      },
+      "Microsoft.Net.Compilers": {
+        "type": "Direct",
+        "requested": "[2.1.0, 2.1.0]",
+        "resolved": "2.1.0",
+        "contentHash": "WSazj3brvWAmUxwf0IriK19ZyGD+BBrwTlqURDtb3FiC9wGZo9LIhlq+ZKg0l160F8t1nk3kMVt1JYQw43YyxQ=="
+      },
+      "Microsoft.Owin": {
+        "type": "Direct",
+        "requested": "[3.1.0, 3.1.0]",
+        "resolved": "3.1.0",
+        "contentHash": "dtDln3a84XlfPRyFNLfbqAxfoK5dFC7sH9E78KNZnRHXOEdelEBOczrUFkYG0h/+qfM7NlwBKEul5dZeVTY2gA=="
+      },
+      "Microsoft.Owin.Host.SystemWeb": {
+        "type": "Direct",
+        "requested": "[3.1.0, 3.1.0]",
+        "resolved": "3.1.0",
+        "contentHash": "Rh6kQcgnfNILpJSGZCbA8ANsdNiD+hDqQURrjR0f4Rp+820OcGLRRMGf9su9FHXCpXnWyNR33yuptslR/bdXmg=="
+      },
+      "Microsoft.Web.Infrastructure": {
+        "type": "Direct",
+        "requested": "[1.0.0, 1.0.0]",
+        "resolved": "1.0.0",
+        "contentHash": "FNmvLn5m2LTU/Rs2KWVo0SIIh9Ek+U0ojex7xeDaSHw/zgEP77A8vY5cVWgUtBGS8MJfDGNn8rpXJWEIQaPwTg=="
+      },
+      "Newtonsoft.Json": {
+        "type": "Direct",
+        "requested": "[10.0.3, 10.0.3]",
+        "resolved": "10.0.3",
+        "contentHash": "hSXaFmh7hNCuEoC4XNY5DrRkLDzYHqPx/Ik23R4J86Z7PE/Y6YidhG602dFVdLBRSdG6xp9NabH3dXpcoxWvww=="
+      },
+      "Owin": {
+        "type": "Direct",
+        "requested": "[1.0.0, 1.0.0]",
+        "resolved": "1.0.0",
+        "contentHash": "OseTFniKmyp76mEzOBwIKGBRS5eMoYNkMKaMXOpxx9jv88+b6mh1rSaw43vjBOItNhaLFG3d0a20PfHyibH5sw=="
+      },
+      "Swashbuckle": {
+        "type": "Direct",
+        "requested": "[5.6.0, 5.6.0]",
+        "resolved": "5.6.0",
+        "contentHash": "UAE91ynpgvwoUs8igq3k/D0HV+cHrGRGJR9cwIPGE08hHJenn24MR2vq1n6NYbDWEwAVm+RYUW+qIsO9p5Sn/Q=="
+      },
+      "Swashbuckle.Core": {
+        "type": "Direct",
+        "requested": "[5.6.0, 5.6.0]",
+        "resolved": "5.6.0",
+        "contentHash": "GhVWgtB8hCOxQhx7zLiiRyoi6flm7fNDDGILYHWktxLMkykRUz90fhmLRZECmnbvCcepFyROiw3phS1XorhdDg=="
+      },
+      "WebActivatorEx": {
+        "type": "Direct",
+        "requested": "[2.0.0, 2.0.0]",
+        "resolved": "2.0.0",
+        "contentHash": "B3ZbOEaGCqa7BLjZZw6wqprOJJMvP39h7Lr5ADkJOCPKHppAaCre34kR63/gfgpM4htzTfgm/pEw7r7qqqMgIA=="
+      }
+    }
+  }
+}
