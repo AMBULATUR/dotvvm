@@ -7,4 +7,4 @@ RUN scoop install git; `
     scoop bucket add extras; `
     scoop install chromium chromedriver
 
-ENTRYPOINT [ "powershell.exe" ]
+ENTRYPOINT [ "cmd.exe" ]
