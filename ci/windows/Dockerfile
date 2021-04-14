@@ -6,3 +6,5 @@ RUN Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://
 RUN scoop install git; `
     scoop bucket add extras; `
     scoop install chromium chromedriver
+
+ENTRYPOINT [ "powershell.exe" ]
