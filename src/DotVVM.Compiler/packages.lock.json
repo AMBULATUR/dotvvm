@@ -1365,7 +1365,7 @@
       "DotVVM": {
         "type": "Project",
         "dependencies": {
-          "DotVVM.Core": "3.0.0-preview05-108692",
+          "DotVVM.Core": "3.0.0",
           "Microsoft.CodeAnalysis.CSharp": "2.6.1",
           "Microsoft.Extensions.DependencyInjection": "2.0.0",
           "Microsoft.Extensions.DependencyModel": "2.0.0",
@@ -4211,7 +4211,7 @@
       "DotVVM": {
         "type": "Project",
         "dependencies": {
-          "DotVVM.Core": "3.0.0-preview05-108692",
+          "DotVVM.Core": "3.0.0",
           "Microsoft.CodeAnalysis.CSharp": "1.0.0",
           "Microsoft.Extensions.DependencyInjection": "1.0.0",
           "Microsoft.Extensions.Options": "1.0.0",

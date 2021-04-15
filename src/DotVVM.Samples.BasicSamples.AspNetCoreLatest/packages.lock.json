@@ -1675,7 +1675,7 @@
       "DotVVM": {
         "type": "Project",
         "dependencies": {
-          "DotVVM.Core": "3.0.0-preview05-108692",
+          "DotVVM.Core": "3.0.0",
           "Microsoft.CodeAnalysis.CSharp": "2.6.1",
           "Microsoft.Extensions.DependencyInjection": "2.0.0",
           "Microsoft.Extensions.DependencyModel": "2.0.0",
@@ -1698,8 +1698,8 @@
         "type": "Project",
         "dependencies": {
           "Ben.Demystifier": "0.1.0",
-          "DotVVM": "3.0.0-preview05-108692",
-          "DotVVM.Core": "3.0.0-preview05-108692",
+          "DotVVM": "3.0.0",
+          "DotVVM.Core": "3.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "2.1.0",
           "Microsoft.AspNetCore.Authorization": "2.1.0",
           "Microsoft.AspNetCore.DataProtection": "2.1.0",
@@ -1729,7 +1729,7 @@
       "dotvvm.samples.common": {
         "type": "Project",
         "dependencies": {
-          "DotVVM": "3.0.0-preview05-108692",
+          "DotVVM": "3.0.0",
           "DotVVM.Samples.BasicSamples.Api.Common": "1.0.0",
           "EmbeddedResourceControls": "1.0.0"
         }
