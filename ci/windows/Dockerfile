@@ -13,7 +13,6 @@ COPY --from=dotnet-installer ["/Program Files/dotnet", "/Program Files/dotnet"]
 
 USER ContainerAdministrator
 RUN setx /M PATH \"${env:PATH};C:\Program Files\dotnet\"
-USER ContainerUser
 
 RUN dotnet help
 
