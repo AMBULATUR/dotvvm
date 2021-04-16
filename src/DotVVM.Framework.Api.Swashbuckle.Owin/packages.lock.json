@@ -2,6 +2,15 @@
   "version": 1,
   "dependencies": {
     ".NETFramework,Version=v4.5.1": {
+      "Microsoft.NETFramework.ReferenceAssemblies": {
+        "type": "Direct",
+        "requested": "[1.0.0, )",
+        "resolved": "1.0.0",
+        "contentHash": "7D2TMufjGiowmt0E941kVoTIS+GTNzaPopuzM1/1LSaJAdJdBrVP0SkZW7AgDd0a2U1DjsIeaKG1wxGVBNLDMw==",
+        "dependencies": {
+          "Microsoft.NETFramework.ReferenceAssemblies.net451": "1.0.0"
+        }
+      },
       "Swashbuckle.Core": {
         "type": "Direct",
         "requested": "[5.6.0, )",
@@ -33,6 +42,11 @@
         "type": "Transitive",
         "resolved": "2.0.20710",
         "contentHash": "OsB/5QO9tYJRLYIgBOhRl4Tssh3pw7+UAO9tMGMBg63f98GfjsniVIwLWRC0vcRr/F6HLP/NvRlHyGBhtD7Bmw=="
+      },
+      "Microsoft.NETFramework.ReferenceAssemblies.net451": {
+        "type": "Transitive",
+        "resolved": "1.0.0",
+        "contentHash": "uf46CKcmU+8F3nvnT0IU8MnsV9tQa5vPWA/6XNkje6ZW7+EZPOwXTwa/ZX/v4kgJqADYOD72jP0VRIySok6nBw=="
       },
       "Newtonsoft.Json": {
         "type": "Transitive",

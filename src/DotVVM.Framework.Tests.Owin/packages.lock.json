@@ -11,6 +11,15 @@
           "Microsoft.CodeCoverage": "16.5.0"
         }
       },
+      "Microsoft.NETFramework.ReferenceAssemblies": {
+        "type": "Direct",
+        "requested": "[1.0.0, )",
+        "resolved": "1.0.0",
+        "contentHash": "7D2TMufjGiowmt0E941kVoTIS+GTNzaPopuzM1/1LSaJAdJdBrVP0SkZW7AgDd0a2U1DjsIeaKG1wxGVBNLDMw==",
+        "dependencies": {
+          "Microsoft.NETFramework.ReferenceAssemblies.net461": "1.0.0"
+        }
+      },
       "Microsoft.Owin.Security": {
         "type": "Direct",
         "requested": "[3.0.1, )",
@@ -139,6 +148,11 @@
           "System.Resources.ResourceManager": "4.0.1",
           "System.Runtime": "4.1.0"
         }
+      },
+      "Microsoft.NETFramework.ReferenceAssemblies.net461": {
+        "type": "Transitive",
+        "resolved": "1.0.0",
+        "contentHash": "t4HKFwTQk/TkCCe1Sr2veze2QU6/RkRHkSQrZMHo2oFAoPANBg1l93O2Gh+ogqKRLFCRBbInm9hvEeSKVsuepw=="
       },
       "Microsoft.Owin": {
         "type": "Transitive",
