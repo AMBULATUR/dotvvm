@@ -1,12 +1,12 @@
 <Project>
   <PropertyGroup>
     <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+    <RestoreLockedMode Condition="'$(ContinuousIntegrationBuild)' == 'true'">true</RestoreLockedMode>
     <DisableImplicitNuGetFallbackFolder>true</DisableImplicitNuGetFallbackFolder>
   </PropertyGroup>
 
   <PropertyGroup Condition="$(DOTVVM_ROOT) != ''">
     <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
-    <RestoreLockedMode>true</RestoreLockedMode>
     <RepoRoot>$([MSBuild]::NormalizeDirectory('$(DOTVVM_ROOT)'))</RepoRoot>
     <BaseOutputPath>$(RepoRoot)artifacts\bin\$(MSBuildProjectName)\</BaseOutputPath>
     <BaseIntermediateOutputPath>$(RepoRoot)artifacts\obj\$(MSBuildProjectName)\</BaseIntermediateOutputPath>
