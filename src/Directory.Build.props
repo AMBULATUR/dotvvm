@@ -7,6 +7,7 @@
 
   <PropertyGroup Condition="$(DOTVVM_ROOT) != ''">
     <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+    <RestoreLockedMode>true</RestoreLockedMode>
     <RepoRoot>$([MSBuild]::NormalizeDirectory('$(DOTVVM_ROOT)'))</RepoRoot>
     <BaseOutputPath>$(RepoRoot)artifacts\bin\$(MSBuildProjectName)\</BaseOutputPath>
     <BaseIntermediateOutputPath>$(RepoRoot)artifacts\obj\$(MSBuildProjectName)\</BaseIntermediateOutputPath>
