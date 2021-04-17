@@ -103,6 +103,6 @@
 
   <PropertyGroup>
     <!-- Don't generate packages.lock.json since it wrecks cross-platfrom CI. -->
-    <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+    <RestorePackagesWithLockFile>false</RestorePackagesWithLockFile>
   </PropertyGroup>
 </Project>
