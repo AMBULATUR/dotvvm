@@ -1,7 +1,7 @@
 $root = [System.IO.Path]::GetFullPath((Join-Path $PSScriptRoot ..\..))
 
 $env:DOTVVM_ROOT = $root
-git clean -dfx $root\src
+git clean -dfx $root -e .vscode
 cd $root\src\DotVVM.Framework `
     && npm ci `
     && npm run build `
