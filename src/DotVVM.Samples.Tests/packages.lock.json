@@ -11,12 +11,6 @@
           "Microsoft.TestPlatform.ObjectModel": "16.8.3"
         }
       },
-      "JunitXml.TestLogger": {
-        "type": "Direct",
-        "requested": "[2.1.81, )",
-        "resolved": "2.1.81",
-        "contentHash": "x5q2WEPRyvwEHnXrHsVwlL40eKI07M1cs5TByz8M5JLewycJjzP/pRKO90q/Jl+4K+8bfrJ+hFZHeMeOzBO6Nw=="
-      },
       "Microsoft.NET.Test.Sdk": {
         "type": "Direct",
         "requested": "[16.9.4, )",
@@ -29,19 +23,19 @@
       },
       "Riganti.Selenium.AssertApi": {
         "type": "Direct",
-        "requested": "[3.0.0-preview01-final, )",
-        "resolved": "3.0.0-preview01-final",
-        "contentHash": "nuSWioLRidrV75uZVFZ/gwKqYbdDrz/s9ul8EA6oAlknQlE3+6SZEbC+2c692R2rMyqsFDq7bTsU51qnOBOdNA==",
+        "requested": "[3.0.0-preview07-final, )",
+        "resolved": "3.0.0-preview07-final",
+        "contentHash": "e3hz0KaWNkG1cnO1R/NYKL5iroWT7PZ26w7yCv4Thz2q9Kzhj9Jb934smN8zsctFki00Dxrx2BKtMVCJlRYrQQ==",
         "dependencies": {
-          "Riganti.Selenium.Core": "3.0.0-preview01-final",
-          "Riganti.Selenium.Core.Abstractions": "3.0.0-preview01-final"
+          "Riganti.Selenium.Core": "3.0.0-preview07-final",
+          "Riganti.Selenium.Core.Abstractions": "3.0.0-preview07-final"
         }
       },
       "Riganti.Selenium.Coordinator.Client": {
         "type": "Direct",
-        "requested": "[3.0.0-preview01-final, )",
-        "resolved": "3.0.0-preview01-final",
-        "contentHash": "iuLpLCINQTC99vRgrVc89xOL6OWDgHwRTVRHRDv8vwAz9QnFig8G+r4IjkB4/2KW0EmPzhtAFgCiAY6gNYs1Fg==",
+        "requested": "[3.0.0-preview07-final, )",
+        "resolved": "3.0.0-preview07-final",
+        "contentHash": "ONsatCdO6cPYqKVxHNRAeFUEkZ+DFIjdoKkgzft62VAAXIkjZGMHeCbP5oLm1qY7nFdqQnYj0+4lLVzG9QY9ug==",
         "dependencies": {
           "Newtonsoft.Json": "11.0.2",
           "System.Net.Http": "4.3.4"
@@ -49,52 +43,52 @@
       },
       "Riganti.Selenium.Core": {
         "type": "Direct",
-        "requested": "[3.0.0-preview01-final, )",
-        "resolved": "3.0.0-preview01-final",
-        "contentHash": "UwrdAXgGOLpblHLwivKDGbR2++rE44KOCqAxrzgCi+nMjJSjRZKE0sfIZ/UcbgQRpG4wdYe7/x+T0OP/GwPbuQ==",
+        "requested": "[3.0.0-preview07-final, )",
+        "resolved": "3.0.0-preview07-final",
+        "contentHash": "MYZriWW726CVs+l32vWulo6y4PIouQRLjeGJnPlzuTmExhWKE7T0qa5enUx3bq4Six+3WTcuByRLMbLTPxXGvg==",
         "dependencies": {
-          "Riganti.Selenium.Coordinator.Client": "3.0.0-preview01-final",
-          "Riganti.Selenium.Core.Abstractions": "3.0.0-preview01-final",
-          "Riganti.Selenium.Validators": "3.0.0-preview01-final",
+          "Riganti.Selenium.Coordinator.Client": "3.0.0-preview07-final",
+          "Riganti.Selenium.Core.Abstractions": "3.0.0-preview07-final",
+          "Riganti.Selenium.Validators": "3.0.0-preview07-final",
           "Selenium.Support": "3.141.0"
         }
       },
       "Riganti.Selenium.Core.Abstractions": {
         "type": "Direct",
-        "requested": "[3.0.0-preview01-final, )",
-        "resolved": "3.0.0-preview01-final",
-        "contentHash": "hfTLRpImBtoBvLhSJCvOwvtd06kxKlSOaTL4pfdbkYuRzPClMvgBj3trGaWOlcwzAu3v2v/V45sGCTh1DT+8jw==",
+        "requested": "[3.0.0-preview07-final, )",
+        "resolved": "3.0.0-preview07-final",
+        "contentHash": "gZaUf4FkFCkkTRLOfW5M6y+kAzc+mdyP4RM1hohS9e7GFeWZwMfg2Yk0xiSBONuOXg0aJUKNxpcNako3fyk9oA==",
         "dependencies": {
           "Selenium.Support": "3.141.0"
         }
       },
       "Riganti.Selenium.DotVVM": {
         "type": "Direct",
-        "requested": "[3.0.0-preview01-final, )",
-        "resolved": "3.0.0-preview01-final",
-        "contentHash": "i0uxw1SJPSb7hYkVHHlrvAzyZCeShIUh/Ps926jymr+EbS915ygdhrzI6Ro3wjBrq69yq5NZp2lXbv/Xx9wFyw==",
+        "requested": "[3.0.0-preview07-final, )",
+        "resolved": "3.0.0-preview07-final",
+        "contentHash": "5MeZLhfiBcADuO9BH2dSg0baSmeA4amRP/oO9M9cAch6kRZTgxEqefhEIMLlDWRF6loD3HGo4U13RD5pWWACuw==",
         "dependencies": {
-          "Riganti.Selenium.Core": "3.0.0-preview01-final"
+          "Riganti.Selenium.Core": "3.0.0-preview07-final"
         }
       },
       "Riganti.Selenium.Validators": {
         "type": "Direct",
-        "requested": "[3.0.0-preview01-final, )",
-        "resolved": "3.0.0-preview01-final",
-        "contentHash": "G55uQvCfMRyjYEFINb8WQHkUL/ev9E3BAXvZD/oSzTrbrBlBKtDW3CsKjoF9FwXmOTyxdVFmKeE+4j1L0tKn0A==",
+        "requested": "[3.0.0-preview07-final, )",
+        "resolved": "3.0.0-preview07-final",
+        "contentHash": "Z79deyX6fYi0p1mzJ13Nv05Tc2xORovmZyGIMH3nTKkVJDl05i2YpIZm2FIyNdFHV/VCTvS9MYLTwgCax/lvmQ==",
         "dependencies": {
-          "Riganti.Selenium.Core.Abstractions": "3.0.0-preview01-final",
+          "Riganti.Selenium.Core.Abstractions": "3.0.0-preview07-final",
           "Selenium.Support": "3.141.0"
         }
       },
       "Riganti.Selenium.xUnitIntegration": {
         "type": "Direct",
-        "requested": "[3.0.0-preview01-final, )",
-        "resolved": "3.0.0-preview01-final",
-        "contentHash": "F9dAu0OlDBN/QVpgmMSmGWsdQvmNNyrK7TDMGA5otpDn04SKHZmeXzV1tbX1irogO4qyql+GgyxrdZpUwYSOFA==",
+        "requested": "[3.0.0-preview07-final, )",
+        "resolved": "3.0.0-preview07-final",
+        "contentHash": "t0mSgcuhQ22/ckuil1W4whn9ETbf/KgBr6Aj0kkmiAIRlEtr4HN1xxAbGIREpCzVFQ8nwr+P+gQyREB9HwSNeg==",
         "dependencies": {
           "Microsoft.NET.Test.Sdk": "16.9.1",
-          "Riganti.Selenium.Core": "3.0.0-preview01-final",
+          "Riganti.Selenium.Core": "3.0.0-preview07-final",
           "Xunit.Extensions.AssemblyFixture": "2.2.0",
           "xunit": "2.4.1",
           "xunit.runner.utility": "2.4.1"
