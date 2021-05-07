@@ -30,6 +30,6 @@ RUN dotnet help
 ENTRYPOINT []
 
 
-
+COPY src /src
 COPY artifacts/DotVVM.Samples.BasicSamples.Owin /inetpub/dotvvm.owin
 COPY src/DotVVM.Samples.Common /inetpub/DotVVM.Samples.Common
