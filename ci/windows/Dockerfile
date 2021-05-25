@@ -1,5 +1,5 @@
 # escape=`
-FROM mcr.microsoft.com/dotnet/sdk:3.1 as dotnet-installer
+FROM mcr.microsoft.com/dotnet/sdk:5.0 as dotnet-installer
 
 
 # export fonts from full-windows (based on https://stackoverflow.com/a/65655141)
